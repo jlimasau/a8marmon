@@ -1,0 +1,164 @@
+#messagecontainer{
+  overflow: auto;
+  margin: all;
+  height: 80%;
+  min-width: 100%;
+}
+
+
+/*.answer{
+  float: right;
+  padding-right: 44px;
+} */
+
+.answer span {
+  float: right;
+  margin-left: 70px;
+  margin-top:50px;
+  text-align: right;
+  padding-right:20px;
+}
+
+
+
+
+
+.chat{
+  font-size:100%;
+
+
+.chatbox{
+  padding-bottom: 4cm;
+}
+
+.hamburger{
+  float:right;
+  padding:10px;
+}
+
+.back{
+  padding:10px;
+}
+
+.date {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.record{
+  position:absolute;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+
+.plus-entry{
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+  padding: 4px;
+  border: 4px;
+   
+}
+
+.entry{
+  float;
+  position: absolute;
+  bottom: 0px;
+  min-width: 80%;
+  padding: 4px;
+  border: 4px;
+   
+}
+
+.info{
+  overflow: auto;
+  margin: all;
+  height: 80%;
+  min-width: 100%;
+}
+
+.number{
+  float:left;
+}
+
+
+
+.bubble {
+    position: relative;
+    background: #FFFFCC;
+    border: 1px solid #FFCC00;
+    max-width:250px;
+    padding:10px;
+    font-family:arial;
+    margin:0 auto;
+    font-size:14px;
+    border-radius:6px;
+
+}
+.bubble:after,
+.bubble:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.bubble:after {
+    border-color: rgba(255, 255, 204, 0);
+    border-right-color: #FFFFCC;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.bubble:before {
+    border-color: rgba(255, 204, 0, 0);
+    border-right-color: #FFCC00;
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+#breathingMarimon {
+  width: 40px;
+  padding: 4px; 
+  border: 4px;
+  animation: breathing 8s ease-out infinite normal;
+  border-radius: 3px;
+  text-align: center;  
+    
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(.9);
+ 
+  }
+
+  25% {
+    -webkit-transform: scale(1.2);
+   
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+  }
+
+  75% {
+    -webkit-transform: scale(.9);
+
+  }
+
+
+  100% {
+    -webkit-transform: scale(.9);
+  }
+}
+
+
+}

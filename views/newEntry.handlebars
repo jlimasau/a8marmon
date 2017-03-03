@@ -1,0 +1,95 @@
+<html>
+
+	<head>
+		<title>Marimon</title>
+
+		<meta charset="utf-8">
+		<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet"> 
+		<link href="css/marimon.css" rel="stylesheet">	
+
+	</head>
+	
+	<body style="background-color:#E6F3CA" >
+
+	
+
+		<div class="container">
+			<div style = "position:center" >
+				<a href="/index">
+					<img src="images/back button.png" class="back">
+				</a>
+
+				<span class="date">1/25/2017</span>
+				
+
+				<div id = "addQuestion" style = "text-align:center ">
+					<span> Add </span>
+					<img src="http://www.clipartbest.com/cliparts/KTj/p5M/KTjp5MaAc.jpg" style="max-width: 40px; max-height: 40px;">
+				</div>
+
+				<div class="dropdown menu">
+					<img src="images/Hamburger menu.png" class="hamburger dropdown-toggle" type="button" data-toggle="dropdown">
+					<ul class="dropdown-menu">
+						<li><a href="/index"> Home </a></li>
+						<li><a href="/newEntry"> New Entry </a></li>
+						<li><a href="/login"> Logout </a></li>
+					</ul>
+				</div>
+			</div>
+		
+
+<!--       		<div class="chat">
+       			<img src="images/Marimon face.png" style="width:80px; height:80px">
+       			<span > How are you feeling today? </span>
+       		</div>
+
+       		<div class="chat answer">
+       			<span> I'm feeling great</span>
+       		</div> -->
+
+       		<div id = "messagecontainer">
+  			{{#each messages}}
+  			<div class = "chatbox" >
+  				<div class="{{type}} chat">
+  					<img src="images/{{num}}.png">
+       					<span> {{message}} </span>
+       				<!-- <img src="{{marimon}}" class = "img-responsive col-sm-12"> -->
+       			</div>
+  			</div>
+  			{{/each}}
+  			</div>
+
+ 
+
+
+		<!--	<div>
+				<a href = "/question">
+					<img src = "images/Plus.png" class="plus-entry">
+				</a>
+			</div>   --> 
+
+
+			<div class="entry">
+				<button id="sendBtn" href= "#" class="btn" type="button" style="float:right" >Send</button>
+				<div style="overflow: hidden; padding-right: .5em;">
+   					<input id="inputMessage" type="text" class="form-control" name="typedMessage" placeholder="Type your entry..."/>
+				</div>​
+  			</div>
+
+
+		</div> <!-- containers -->
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/chat.js"></script>
+		<script type="text/javascript" src="qlist.json></script>
+
+
+	</body>
+
+</html>
+

@@ -1,0 +1,81 @@
+{
+	"questionlist": [
+		{
+			"q": "How is your family?",
+			"id": 0
+		}
+		{
+			"q": "How were your meals?",
+			"id": 1
+		}
+		{
+			"q": "Did you accomplish anything?",
+			"id": 2
+		}
+		{
+			"q": "What did you dream of?",
+			"id": 3
+		}
+		{
+			"q": "Did you exercise today?",
+			"id": 4
+		}
+		{
+			"q": "Are you in good health today?",
+			"id": 5
+		}
+		{
+			"q": "What worked really well today?",
+			"id": 6
+		}
+		{
+			"q": "Did you reach your goal today?",
+			"id": 7
+		}
+		{
+			"q": "Do you have any good news to celebrate with me?",
+			"id": 8
+		}
+		{
+			"q": "Do you have any questions for me?",
+			"id": 9
+		}
+		{
+			"q": "Do you like chicken?",
+			"id": 10
+		}
+		{
+			"q": "YOLO?",
+			"id": 11
+		}
+		{
+			"q": "What are a few things you can live up too today?",
+			"id": 12
+		}
+		{
+			"q": "What are your plans?",
+			"id": 13
+		}
+		{
+			"q": "Did anything interesting happen?",
+			"id": 14
+		}
+		{
+			"q": "What did you improve on today?",
+			"id": 15
+		}
+		{
+			"q": "How is your health?",
+			"id": 16
+		}
+		{
+			"q": "Find a true love?",
+			"id": 17
+		}
+		{
+			"q": "How hard was your homework?",
+			"id": 18
+		}
+	] 
+}
+
